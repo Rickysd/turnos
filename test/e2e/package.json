@@ -1,0 +1,52 @@
+{
+  "name": "Turnos-Fe.e2e",
+  "version": "0.1.0",
+  "description": "Application level End 2 End testing for Turnos-Fe",
+  "keywords": [
+    "cells-e2e-tests"
+  ],
+  "scripts": {
+    "test": "./node_modules/@cells-pepino/cli/bin/cli.js -c ./config/browser.js",
+    "test:vbank": "./node_modules/@cells-pepino/cli/bin/cli.js -c ./config/browser.vbank.js"
+  },
+  "dependencies": {
+    "@cells-pepino/cli": "^1.1.0-alpha.2",
+    "@testing/acis-v5": "2.0.0-beta.7",
+    "@types/assert": "^1.4.0",
+    "@types/chai": "^4.2.0",
+    "@types/cheerio": "^0.22.11",
+    "@types/cls-hooked": "^4.2.2",
+    "@types/cucumber": "^6.0.1",
+    "@types/dotenv": "^6.1.0",
+    "@types/i18n": "^0.8.3",
+    "@types/lodash": "^4.14.149",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^10.17.15",
+    "appium": "^1.15.1",
+    "assert": "^1.5.0",
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "chromedriver": "^80.0.2",
+    "clang-format": "^1.4.0",
+    "cls-hooked": "^4.2.2",
+    "cucumber": "6.0.2",
+    "cucumber-tag-expressions": "1.1.1",
+    "data-manager-js-client": "^2.0.12",
+    "dotenv": "^7.0.0",
+    "glob": "^7.1.6",
+    "gts": "^1.1.2",
+    "i18n": "^0.8.5",
+    "lodash": "^4.17.15",
+    "log4js": "^4.5.1",
+    "mocha": "^5.2.0",
+    "selenium-standalone": "^6.17.0",
+    "sonarqube-scanner": "^2.5.0",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^5.20.1",
+    "tslint-sonarts": "^1.9.0",
+    "typedoc": "^0.16.9",
+    "typescript": "^3.7.5",
+    "wdio-cucumberjs-json-reporter": "^1.1.3"
+  }
+}
